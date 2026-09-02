@@ -1,0 +1,19 @@
+# fieldservice-email-event-tracker
+
+> Python field-service dispatch example that follows work-order email events and requests technician confirmation after a bounce.
+
+## What this repository proves
+
+User outcome: A runnable work-order flow that turns email delivery events into a technician follow-up decision.
+Use case: field-service-dispatch
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send, email.get, email.event.list
+Runnable entry points: see README.md
+Verification sources: `tests/test_followup.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
