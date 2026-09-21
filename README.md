@@ -44,3 +44,7 @@ That's the minimal version. Before running this for real, ask what page fired wh
 - **Fieldservice Email Event Tracker:** By default mail goes through a **shared** verified sender, acceptable for tests but generic From plus limited volume plus shared reputation is not something I'd bet a 3am page on.
 - **Fieldservice Email Event Tracker:** For production, verify **your own** domain: `POST /v1/email/domain/verify` with `{"domain":"mail.yourco.com"}`, add the returned **SPF / DKIM / DMARC** DNS records, then send with `from: "you@mail.yourco.com"`.
 - **Fieldservice Email Event Tracker:** Use a dedicated subdomain and **warm it up** (ramp volume over days) to protect deliverability, or watch the bounce graph lie to you.
+
+## Further reading
+
+- [Order Receipt Email API Deliverability: 6 Onboarding Welcome Message Checks](docs/order-receipt-email-api-deliverability-6-onboardi-1bcn1u.md)
