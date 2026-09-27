@@ -47,4 +47,5 @@ That's the minimal version. Before running this for real, ask what page fired wh
 
 ## Further reading
 
+- [Node.js Report Templates Across SendGrid Resend Postmark Transactional Email Alternatives](docs/node-js-report-templates-across-sendgrid-resend-p-8utnao.md)
 - [Order Receipt Email API Deliverability: 6 Onboarding Welcome Message Checks](docs/order-receipt-email-api-deliverability-6-onboardi-1bcn1u.md)
